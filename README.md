@@ -113,6 +113,7 @@ math.html
 </body>
 </html>
 ```
+
 ```
 views.py
 from django.shortcuts import render
@@ -135,8 +136,9 @@ def cylinarea(request):
         print('Area =', area)
     
     return render(request, 'mathapp/math.html',context)
-    ```
-    ```
+```
+
+```
     urls.py
 
     from django.contrib import admin
